@@ -1,0 +1,47 @@
+.user-component {
+    justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+.user-component__profile--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.user-component__profile--sm {
+    width: 60px;
+    height: 60px;
+}
+
+.user-component__name {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.user-component__name--not-bold {
+    font-weight: 400;
+
+}
+
+.user-component__message {
+    margin-top: 6px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
