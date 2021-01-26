@@ -14,3 +14,7 @@
 .settings__setting-column:last-child {
     opacity: 0.5;
 }
+
+.settings-list {
+    margin-top: 90px;
+}
