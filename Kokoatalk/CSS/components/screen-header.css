@@ -22,3 +22,16 @@
     left: 25px;
     bottom: 25px;
 }
+
+@keyframes rotate_cog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotate_cog 2s linear infinite;
+}
