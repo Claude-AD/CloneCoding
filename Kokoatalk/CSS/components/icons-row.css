@@ -13,3 +13,12 @@
     font-size: 35px;
     margin-bottom: 10px;
 }
+
+.icons-row__icon span {
+    position: relative;
+}
+
+.icons-row__icon-drive {
+    left: 35px;
+    bottom: 45px;
+}
