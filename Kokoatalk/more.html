@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
 </head>
 
 <body>
@@ -26,60 +26,54 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span>
+                <div class="screen-header__icons__cog-dot red-dot"></div>
+                <i class="fas fa-cog fa-lg"></i>
+            </span>
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="images/Profile.jpg" class="user-component__profile user-component__profile--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__name">Yun Jun Hyeok</h4>
+                    <h6 class="user-component__message">+82 10-4840-4959</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
         <div class="icons-row">
             <div class="icons-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR code</span>
+                <i class="far fa-calendar-check"></i>
+                <span>Calendar</span>
             </div>
             <div class="icons-row__icon">
-                <i class="far fa-address-book"></i>
-                <span>Add by Contacts</span>
+                <i class="fab fa-google-drive"></i>
+                <span>Talk Drive</span>
             </div>
             <div class="icons-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span>
+                <i class="far fa-smile"></i>
+                <span>Emoticons</span>
             </div>
             <div class="icons-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>Invite</span>
+                <i class="fas fa-palette"></i>
+                <span>Themes</span>
             </div>
         </div>
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">Recommended Friends</h6>
-            <span>You have no recommended friends.</span>
-        </div>
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4>Open Chat</h4>
-                <span>Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i></span>
-            </div>
-            <div class="open-post">
-                <div class="open-post__column">
-                    <h5 class="open-post__title">#BLACKPINK</h5>
-                    <h6 class="open-post__hashtags">#blackpink#rosie#jisoo</h6>
-                    <div class="open-post__members">
-                        <img src="images/blackpink_member.jpg" />
-                        <span class="open-post__member-count">802 members</span>
-                        <div class="divider"></div>
-                        <span class="open-post__member-status">Active</span>
-                    </div>
-                </div>
-                <div class="open-post__column">
-                    <div class="open-post__photo">
-                        <img src="images/blackpink_profile.jpg" />
-                        <div class="open-post__heart-count">
-                            <i class="fas fa-heart fa-xs"></i>
-                            <span>326</span>
-                        </div>
-                    </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <img class="more_suggestions__icon-image" src="images/kokoa_story.png" />
+                    <span class="more-suggestions__icon-name">Kokoa Story</span>
                 </div>
             </div>
         </div>
