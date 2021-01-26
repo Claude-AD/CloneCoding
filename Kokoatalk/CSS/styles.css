@@ -12,6 +12,7 @@
 @import "components/red-dot.css";
 @import "components/icons-row.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
